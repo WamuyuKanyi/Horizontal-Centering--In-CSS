@@ -1,0 +1,23 @@
+/* Horizontal Centering
+To center horiontally the block we use margin  property .
+auto will automatically place them in the centre. */
+/*  in the block element,the text in this case is 'running' from one side to the other , going by the code in the body */
+/* inline element remain the same using the code in the body  */
+
+
+body{
+  text-align: center ;
+}
+.block{
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.inline{
+  background: red;
+  color: white;
+  
+
+}
